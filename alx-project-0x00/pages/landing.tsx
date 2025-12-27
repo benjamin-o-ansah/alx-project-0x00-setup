@@ -15,6 +15,7 @@ const Landing: React.FC =  () => {
         <div className="flex items-center gap-4">
           <Button title="Small" styles="px-2 py-1 text-sm" />
           <Button title="Medium" styles="px-4 py-2 text-base" />
+          <Button title="Large Rounded" styles="px-4 py-2 rounded-lg" />
           <Button title="Large" styles="px-8 py-4 text-xl" />
         </div>
       </section>
@@ -25,6 +26,7 @@ const Landing: React.FC =  () => {
         <div className="flex items-center gap-4">
           <Button title="Rounded Small" styles="px-4 py-2 rounded-sm" />
           <Button title="Rounded Medium" styles="px-4 py-2 rounded-md" />
+          <Button title="Large" styles="px-8 py-4 text-xl rounded-md" />
           <Button title="Rounded Full" styles="px-6 py-2 rounded-full" />
         </div>
       </section>
